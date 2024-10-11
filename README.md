@@ -1,0 +1,1 @@
+# Soluci-n_de_Ecuaciones_Diferenciales_con-Redes_PINN
