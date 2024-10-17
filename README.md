@@ -37,5 +37,5 @@ Las PINNs se usan en la simulación de sistemas físicos complejos, como la inge
 
 - José R. Guignan
 - Mail: joserguignan@gmail.com
-- Linkedin: [https://www.linkedin.com/in/jrguignan](https://www.linkedin.com/in/jrguignan)
+- Linkedin: [https://www.linkedin.com/in/jrguignan/](https://www.linkedin.com/in/jrguignan)
 - Portafolio: [https://jrguignan.github.io/](https://jrguignan.github.io/)
