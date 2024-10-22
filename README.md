@@ -28,7 +28,7 @@ Usos:
 Las PINNs se usan en la simulación de sistemas físicos complejos, como la ingeniería, la climatología, la medicina (simulación de flujo sanguíneo) y otros campos científicos donde resolver EDPs es fundamental.
 
 <p align="center">
-<img src="images/PINN.png"  height=400>
+<img src="images/PINN.png"  height=200>
 </p>
 
 <br>[Volver al Índice](#Índice)
