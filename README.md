@@ -44,7 +44,7 @@ $$ y(0)=1 $$
 $$ y(x) = e^{-x} $$
 
 <p align="center">
-<img src="images/1er.png"  height=400>
+<img src="images/1er.png"  height=300>
 </p>
 
 # [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
