@@ -4,9 +4,9 @@
 
 * [Redes PINN](#Redes-PINN) 
 
-* [Ecuación 1er Orden](#Ecuación-1er-Orden) 
+* [Ecuación Diferencial de 1er Orden](#Ecuación-Diferencial-de-1er-Orden) 
 
-* [Ecuación 2do Orden](#Ecuación-2do-Orden) 
+* [Ecuación Diferencial de 2do Orden](#Ecuación-Diferencial-de-2do-Orden) 
 
 * [Autor](#Autor)
 
@@ -25,10 +25,29 @@ Las PINNs se usan en la simulación de sistemas físicos complejos, como la inge
 
 <br>[Volver al Índice](#Índice)
 
-# Ecuación 1er Orden
+# Ecuación Diferencial de 1er Orden
+
+$$ y'(x)+y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 4 $$ 
+
+### Condiciones Iniciales:
+$$ y(0)=1 $$
+
+### Solución Analítica:
+$$ y(x) = e^{-x} $$
 
 
-# Ecuación 2do Orden
+
+# Ecuación Diferencial de 2do Orden
+
+$$ y''(x) + y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 8 $$ 
+
+### Condiciones Iniciales:
+$$ y(0)=1,\hspace{1cm} y'(0)=0 $$
+
+### Solución Analítica:
+$$ y(x)=cos(x) $$
+
+
 
 
 <br>[Volver al Índice](#Índice)
