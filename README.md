@@ -1,5 +1,9 @@
 # Soluci-n_de_Ecuaciones_Diferenciales_con-Redes_PINN
 
+<p align="center">
+<img src="images/banner.png"  height=450>
+</p>
+
 # Índice
 
 * [Redes PINN](#Redes-PINN) 
@@ -25,7 +29,7 @@ Las PINNs se usan en la simulación de sistemas físicos complejos, como la inge
 
 <br>[Volver al Índice](#Índice)
 
-# Ecuación Diferencial de 1er Orden
+# [Ecuación Diferencial de 1er Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/1er_EDO.ipynb)
 
 $$ y'(x)+y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 4 $$ 
 
@@ -37,7 +41,7 @@ $$ y(x) = e^{-x} $$
 
 
 
-# Ecuación Diferencial de 2do Orden
+# [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
 
 $$ y''(x) + y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 8 $$ 
 
