@@ -27,6 +27,10 @@ Mejor generalización: Al estar informadas por la física, tienden a generalizar
 Usos:
 Las PINNs se usan en la simulación de sistemas físicos complejos, como la ingeniería, la climatología, la medicina (simulación de flujo sanguíneo) y otros campos científicos donde resolver EDPs es fundamental.
 
+<p align="center">
+<img src="images/PINN.png"  height=400>
+</p>
+
 <br>[Volver al Índice](#Índice)
 
 # [Ecuación Diferencial de 1er Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/1er_EDO.ipynb)
@@ -39,7 +43,9 @@ $$ y(0)=1 $$
 ### Solución Analítica:
 $$ y(x) = e^{-x} $$
 
-
+<p align="center">
+<img src="images/1er.png"  height=400>
+</p>
 
 # [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
 
@@ -51,7 +57,9 @@ $$ y(0)=1,\hspace{1cm} y'(0)=0 $$
 ### Solución Analítica:
 $$ y(x)=cos(x) $$
 
-
+<p align="center">
+<img src="images/2do.png"  height=400>
+</p>
 
 
 <br>[Volver al Índice](#Índice)
