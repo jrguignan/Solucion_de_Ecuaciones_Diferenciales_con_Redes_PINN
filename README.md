@@ -21,22 +21,23 @@ su estructura de aprendizaje. A diferencia de las redes neuronales convencionale
  ecuaciones diferenciales parciales (EDP) que describen fenómenos físicos, como la dinámica de fluidos, la mecánica cuántica
   o la propagación de calor.
 
- De manera simplificada las redes PINN son como una red reuronal común pero en su función de perdida se le agregan terminos 
- de las condiciones iniciales y  condiciones iniciales y de la ecuación diferencial a resolver. 
- la función de perdida quedaría:
-
- $$ FP = \omega_{D}L_{D} + \omega_{B}L_{B} $$
-
- Donde: 
- - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
- - L_{D} =
- - L_{B} =
-
-
-
 <p align="center">
 <img src="images/PINN.png"  height=200>
 </p>
+
+ De manera simplificada las redes PINN son como una red neuronal común pero en su función de perdida se le agregan términos 
+ de las condiciones iniciales y de la ecuación diferencial a resolver. 
+
+ La función de perdida:
+
+ $$ Loss = \omega_{D}L_{D} + \omega_{B}L_{B} $$
+
+ Donde: 
+ - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
+ - $L_{D} =  $
+ - $L_{B} =  $
+
+
 
 Beneficios:
 Incorporación de leyes físicas: Al integrar ecuaciones físicas directamente, mejora la precisión y estabilidad en la simulación de fenómenos físicos.
