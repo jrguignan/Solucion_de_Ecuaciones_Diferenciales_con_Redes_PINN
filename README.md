@@ -34,7 +34,7 @@ su estructura de aprendizaje. A diferencia de las redes neuronales convencionale
 
  Donde: 
  - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
- - $L_{D} =  $
+ - $L_{D} = \frac{1}{N_{D}} \sum_{i=1}^{N_{D}}\abs(Y_{NN}(X_{i} - f(X_{i})))  $
  - $L_{B} =  $
 
 
