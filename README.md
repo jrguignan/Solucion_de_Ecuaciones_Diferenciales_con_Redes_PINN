@@ -16,7 +16,27 @@
 
 # Redes PINN
 
-Una Red Neuronal PINN (Physics-Informed Neural Network) es un tipo de red neuronal que integra conocimientos físicos en su estructura de aprendizaje. A diferencia de las redes neuronales convencionales, las PINNs están diseñadas para resolver ecuaciones diferenciales parciales (EDP) que describen fenómenos físicos, como la dinámica de fluidos, la mecánica cuántica o la propagación de calor.
+Una Red Neuronal PINN (Physics-Informed Neural Network) es un tipo de red neuronal que integra conocimientos físicos en 
+su estructura de aprendizaje. A diferencia de las redes neuronales convencionales, las PINNs están diseñadas para resolver
+ ecuaciones diferenciales parciales (EDP) que describen fenómenos físicos, como la dinámica de fluidos, la mecánica cuántica
+  o la propagación de calor.
+
+ De manera simplificada las redes PINN son como una red reuronal común pero en su función de perdida se le agregan terminos 
+ de las condiciones iniciales y  condiciones iniciales y de la ecuación diferencial a resolver. 
+ la función de perdida quedaría:
+
+ $$ FP = \omega_{D}L_{D} + \omega_{B}L_{B} $$
+
+ Donde: 
+ - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
+ - L_{D} =
+ - L_{B} =
+
+
+
+<p align="center">
+<img src="images/PINN.png"  height=200>
+</p>
 
 Beneficios:
 Incorporación de leyes físicas: Al integrar ecuaciones físicas directamente, mejora la precisión y estabilidad en la simulación de fenómenos físicos.
@@ -26,12 +46,6 @@ Mejor generalización: Al estar informadas por la física, tienden a generalizar
 
 Usos:
 Las PINNs se usan en la simulación de sistemas físicos complejos, como la ingeniería, la climatología, la medicina (simulación de flujo sanguíneo) y otros campos científicos donde resolver EDPs es fundamental.
-
-<p align="center">
-<img src="images/PINN.png"  height=200>
-</p>
-
-
 
 <br>[Volver al Índice](#Índice)
 
