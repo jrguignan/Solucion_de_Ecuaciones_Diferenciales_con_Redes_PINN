@@ -1,4 +1,4 @@
-# Soluci-n_de_Ecuaciones_Diferenciales_con-Redes_PINN
+# Solución de Ecuaciones Diferenciales con Redes Neuronales PINN
 
 <p align="center">
 <img src="images/banner.png"  height=450>
@@ -31,6 +31,8 @@ Las PINNs se usan en la simulación de sistemas físicos complejos, como la inge
 <img src="images/PINN.png"  height=200>
 </p>
 
+
+
 <br>[Volver al Índice](#Índice)
 
 # [Ecuación Diferencial de 1er Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/1er_EDO.ipynb)
@@ -44,7 +46,7 @@ $$ y(0)=1 $$
 $$ y(x) = e^{-x} $$
 
 <p align="center">
-<img src="images/1er.png"  height=300>
+<img src="images/1er.png"  height=400>
 </p>
 
 # [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
@@ -58,7 +60,7 @@ $$ y(0)=1,\hspace{1cm} y'(0)=0 $$
 $$ y(x)=cos(x) $$
 
 <p align="center">
-<img src="images/2do.png"  height=400>
+<img src="images/2do_.png"  height=400>
 </p>
 
 
