@@ -25,8 +25,8 @@ su estructura de aprendizaje. A diferencia de las redes neuronales convencionale
 <img src="images/PINN.png"  height=200>
 </p>
 
- De manera simplificada las redes PINN son como una red neuronal común pero en su función de perdida se le agregan términos 
- de las condiciones iniciales y de la ecuación diferencial a resolver. 
+ De manera simplificada las redes PINN son una red neuronal común pero en su función de perdida se le agregan términos 
+ relacionados de las condiciones iniciales y la ecuación diferencial a resolver. 
 
  La función de perdida:
 
@@ -34,15 +34,16 @@ su estructura de aprendizaje. A diferencia de las redes neuronales convencionale
 
  Donde: 
  - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
- - $L_{D} = \frac{1}{N_{D}} \sum_{i=1}^{N_{D}}\abs{Y_{NN}(X_{i} - f(X_{i}))}  $
- - $L_{B} = \abs{Y_{NN}(X_{0} - Y_{i}}  $
+ - $L_{D} = \frac{1}{N_{D}} \sum_{i=1}^{N_{D}} \left| Y_{NN}(X_{i} - f(X_{i})) \right|  $
+ - $L_{B} = \left|Y_{NN}(X_{0} - Y_{i} \right|  $
 
 
 
 Beneficios:
-Incorporación de leyes físicas: Al integrar ecuaciones físicas directamente, mejora la precisión y estabilidad en la simulación de fenómenos físicos.
-Reducción de datos: No siempre requieren grandes cantidades de datos, ya que la física incorporada ayuda a guiar el aprendizaje.
-Mejor generalización: Al estar informadas por la física, tienden a generalizar mejor en problemas con restricciones físicas.
+Incorporación de leyes físicas: Al integrar ecuaciones físicas directamente, mejora la precisión y estabilidad en la simulación 
+de fenómenos físicos. Reducción de datos: No siempre requieren grandes cantidades de datos, ya que la física incorporada ayuda 
+a guiar el aprendizaje. Mejor generalización: Al estar informadas por la física, tienden a generalizar mejor en problemas con 
+restricciones físicas.
 
 
 Usos:
