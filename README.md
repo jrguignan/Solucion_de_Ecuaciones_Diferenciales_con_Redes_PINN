@@ -76,6 +76,8 @@ $$ y(x) = e^{-x} $$
 - Medición del Error: Error Cuadrático Medio (RMS)
 - Optimizador: Adam
 
+<br>[Volver al Índice](#Índice)
+
 # [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
 
 $$ y''(x) + y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 8 $$ 
