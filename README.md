@@ -35,7 +35,7 @@ su estructura de aprendizaje. A diferencia de las redes neuronales convencionale
  Donde: 
  - $\omega_{D}$ y $\omega_{B}$ son hiperparámetros que se escogieron como 1, para nuestro caso. 
  - $L_{D} = \frac{1}{N_{D}} \sum_{i=1}^{N_{D}} \left| Y_{NN}(X_{i}) - f(X_{i}) \right|$ Término relacionado con el ajuste a la ecuación diferencial.
- - $L_{B} = \left|Y_{NN}(X_{0}) - Y_{i} \right|$ Término relacionado con el ajuste a la condiciones iniciales.
+ - $L_{B} = \left|Y_{NN}(X_{0}) - Y_{i} \right|$ Término relacionado con el ajuste a las condiciones iniciales.
 
 
 
