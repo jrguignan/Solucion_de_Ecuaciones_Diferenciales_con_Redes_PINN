@@ -65,6 +65,17 @@ $$ y(x) = e^{-x} $$
 <img src="images/1er.png"  height=400>
 </p>
 
+### Entrenamiento
+- Número de Puntos de Entrenamiento: 20
+- Epocas : 40
+- Learning Rate: 0.001
+- Función de Activación: Elu
+- Entrada/Salida de la Red: 1/1
+- Número de Capas: 3
+- Número de neuronas por Capas: 50
+- Medición del Error: Error Cuadrático Medio (RMS)
+- Optimizador: Adam
+
 # [Ecuación Diferencial de 2do Orden](https://github.com/jrguignan/Solucion_de_Ecuaciones_Diferenciales_con_Redes_PINN/blob/main/2do_EDO.ipynb)
 
 $$ y''(x) + y(x)=0 \hspace{1cm} 0 \leqslant x \leqslant 8 $$ 
@@ -79,6 +90,16 @@ $$ y(x)=cos(x) $$
 <img src="images/2do_.png"  height=400>
 </p>
 
+### Entrenamiento
+- Número de Puntos de Entrenamiento: 18
+- Epocas : 800
+- Learning Rate: 0.001
+- Función de Activación: Tangente Hiperbólica
+- Entrada/Salida de la Red: 1/1
+- Número de Capas: 5
+- Número de neuronas por Capas: 50
+- Medición del Error: Error Cuadrático Medio (RMS)
+- Optimizador: Adam
 
 <br>[Volver al Índice](#Índice)
 
